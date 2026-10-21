@@ -58,8 +58,8 @@
     "revision": "master",
     "filename": "phoenix-mwa-pretrain-joint96-step_256013.pt",
     "path": "phoenix-mwa-pretrain-joint96-step_256013.pt",
-    "size": 12045482297,
-    "sha256": "f1a2749ff95253b098476b2b6bad9641b0ddea0183c4f366214a63d96bc29753",
+    "size": 12045440725,
+    "sha256": "5ed256c1d34650d689639b55560f243ffd90209640a201c76b13094087e2464f",
     "step": 256013,
     "role": "pretraining"
   }
