@@ -19,7 +19,12 @@ BENCH_ROOT="$(cd "${XPL_ROOT}/.." && pwd)"
 UTILS_DIR="${XPL_ROOT}/utils"
 
 policy_name="$(basename "${SCRIPT_DIR}")"
-yaml_file="${XPL_ROOT}/policy/${policy_name}/deploy.yml"
+case "${bench_name}" in
+    RoboTwin|robotwin) bench_name=RoboTwin; profile=robotwin ;;
+    RoboDojo|robodojo) bench_name=RoboDojo; profile=robodojo ;;
+    *) echo "Phoenix-MWA supports RoboTwin or RoboDojo" >&2; exit 2 ;;
+esac
+yaml_file="${SCRIPT_DIR}/configs/${profile}.yml"
 
 echo "[CLIENT] policy=${policy_name}, task=${task_name}, server=${policy_server_ip}:${policy_server_port}"
 

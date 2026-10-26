@@ -1,0 +1,19 @@
+test_download_selection (XPolicyLab.policy.Phoenix_MWA.tests.test_unified.UnifiedTests) ... ok
+test_forwarding_and_runtime_isolation (XPolicyLab.policy.Phoenix_MWA.tests.test_unified.UnifiedTests) ... ok
+test_profiles_and_overrides (XPolicyLab.policy.Phoenix_MWA.tests.test_unified.UnifiedTests) ... ok
+test_reject_wrong_family_and_missing_benchmark (XPolicyLab.policy.Phoenix_MWA.tests.test_unified.UnifiedTests) ... ok
+test_robodojo_checkpoint_root_is_shared (XPolicyLab.policy.Phoenix_MWA.tests.test_unified.UnifiedTests) ... ok
+test_acknowledgment_cadence (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.AdapterTests) ... ok
+test_action_mapping_no_extra_clipping (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.AdapterTests) ... ok
+test_batch_shrink_and_reset (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.AdapterTests) ... ok
+test_invalid_observations (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.AdapterTests) ... ok
+test_rgb_view_order (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.AdapterTests) ... ok
+test_indexed_cache_roundtrip (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.SourceTests) ... ok
+test_normalization_and_real_contract (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.SourceTests) ... ok
+test_repeat9_full_encoder (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.SourceTests) ... ok
+test_source_snapshot_hashes (XPolicyLab.policy.Phoenix_MWA.tests.test_policy.SourceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 6.072s
+
+OK

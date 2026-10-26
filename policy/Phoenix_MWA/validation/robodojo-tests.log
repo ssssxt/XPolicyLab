@@ -1,0 +1,77 @@
+test_cached_visual_checkpoint_is_rejected (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_contract_and_all_robot_slots (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_device_limit_is_separate_and_logged (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_gripper_preprocessing_and_finite (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_online_t5_preserves_prompt_and_padding_contract (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_options_and_new_mode_route (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_phoenix_deploy_selects_new_route (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_prepared_rgb_colors_float32 (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_public_release_is_latest_and_self_contained (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_real_joint_encoder_calls_both_branches_with_nine_frames (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_reject_legacy_or_wrong_normalization (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_reject_wrong_step_lineage_config_mapping (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_repeat9_wraps_full_encoder_not_only_stvae (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_sampler_bridge_uses_cached_text_masks_shapes_and_reset (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_state_action_normalization_and_inverse (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_text_zero_padding_all_visible_and_unknown_refusal (XPolicyLab.policy.Phoenix_MWA.robodojo.test_phoenix.PhoenixTests) ... ok
+test_horizontal_camera_order_and_roundtrip (XPolicyLab.policy.Phoenix_MWA.robodojo.test_resize_concat.ResizeConcatTests) ... ok
+test_keeps_edges_instead_of_center_crop (XPolicyLab.policy.Phoenix_MWA.robodojo.test_resize_concat.ResizeConcatTests) ... ok
+test_pixels_match_direct_resize_at_multiple_aspect_ratios (XPolicyLab.policy.Phoenix_MWA.robodojo.test_resize_concat.ResizeConcatTests) ... ok
+test_manifest_paths_are_relative (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.AdapterTests) ... ok
+test_phoenix_default_checkpoint_directory (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.AdapterTests) ... ok
+test_shared_checkpoint_resolution (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.AdapterTests) ... ok
+test_standard_model_batch_and_rgb (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.AdapterTests) ... ok
+test_camera_640x480_equals_explicit_480_square (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_complete_restore_keeps_training_initialization_guard (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_cross_robot_checkpoints_are_rejected (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_frozen_models_load_only_manifest_paths (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_missing_or_corrupt_robot_prompt_rejected (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_prompt_id_reaches_dit_for_each_robot (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_pruned_encoder_source_keeps_checkpoint_identity (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_real_session_batch_isolation_acknowledgments_and_reset (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_rectangular_rgb_matches_training_square_crop (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_reject_domain_family_cache_and_lineage (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_reject_wrong_step_and_stats (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_saved_posttraining_contract (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_three_robot_profiles_statistics_and_weights (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_training_camera_order_and_canonical_mapping (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_wrong_loss_recipe_is_rejected (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.RealContractTests) ... skipped 'Legacy z-score release tests; current release tests are in test_phoenix'
+test_double_install_and_bad_inputs (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.Repeat9Tests) ... ok
+test_identity_and_wan_unchanged (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.Repeat9Tests) ... ok
+test_multiframe_passthrough_and_restore (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.Repeat9Tests) ... ok
+test_requires_full_stvae_temporal_output (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.Repeat9Tests) ... ok
+test_single_frame_and_batch_isolation (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96.Repeat9Tests) ... ok
+test_all_current_checkpoint_contracts (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_disabled_dummy_and_wrong_options (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_geometry_and_rgb_channels (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_gripper_and_invalid_state (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_reject_changed_edge25_geometry_and_trim_contracts (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_reject_legacy_cached_checkpoint (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_reject_wrong_family_step_and_normalization (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_text_cache_and_unknown_instruction (XPolicyLab.policy.Phoenix_MWA.robodojo.test_h5.H5DeploymentTests) ... ok
+test_download_all_and_reuse_shared_dependencies (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... Downloading weight: fixture/model/policy.pt
+Downloading weight: fixture/model/encoder.pt
+Individual weights verified: /tmp/tmp04vtv_cc/weights
+Downloading weight: fixture/model/arx_x5.pt
+Downloading weight: fixture/model/piper_x.pt
+Individual weights verified: /tmp/tmp04vtv_cc/weights
+ok
+test_existing_and_downloaded_corruption_are_rejected (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... Downloading weight: fixture/model/policy.pt
+ok
+test_individual_weight_download_and_offline_reuse (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... Downloading weight: fixture/model/policy.pt
+Downloading weight: fixture/model/encoder.pt
+Individual weights verified: /tmp/tmpfvgw7f_i/weights
+Individual weights verified: /tmp/tmpfvgw7f_i/weights
+ok
+test_missing_published_weight_fails_before_download (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... ok
+test_parallel_tokenizer_initialization_never_exposes_partial_file (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... ok
+test_remote_release_requires_all_pinned_weights (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... ok
+test_single_robot_does_not_require_other_checkpoints (XPolicyLab.policy.Phoenix_MWA.robodojo.test_joint96_weights.WeightDownloadTests) ... Downloading weight: fixture/model/policy.pt
+Downloading weight: fixture/model/encoder.pt
+Individual weights verified: /tmp/tmpqe4uqh19/weights
+ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 6.308s
+
+OK (skipped=15)

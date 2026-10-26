@@ -9,7 +9,7 @@ from pathlib import Path
 from unittest.mock import patch
 import numpy as np
 import torch
-from .. import model
+from .. import robotwin as model
 from ..runtime.loader import activate_source, SOURCE
 
 

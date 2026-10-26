@@ -10,9 +10,6 @@ seed: null
 action_type: null
 gpu_id: null
 eval_batch: false
-# Source recipe: 32 predicted/executed actions, 10 denoising steps, BF16.
 replan_steps: 32
 num_inference_steps: 10
-policy_file: policy.pt
-device: cuda:0
 request_timeout_s: 600
